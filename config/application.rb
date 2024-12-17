@@ -29,6 +29,6 @@ module ReduxApi
         origins 'http://localhost:5173'
         resource '*', headers: :any, methods: [:get, :post, :put, :delete, :options, :head]
       end
-    end    
+    end
   end
 end

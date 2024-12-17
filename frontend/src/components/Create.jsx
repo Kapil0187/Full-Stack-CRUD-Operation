@@ -47,7 +47,7 @@ const Create = () => {
           </label>
         </div>
         <div className="mb-3">
-          <input className="form-check-input" type="radio" name="gender " id="flexRadioDefault2" value="Female" onChange={getPersonData}></input>
+          <input className="form-check-input" type="radio" name="gender" id="flexRadioDefault2" value="Female" onChange={getPersonData}/>
           <label className="form-check-label mx-2" htmlFor="flexRadioDefault2">
             Female
           </label>

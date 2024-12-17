@@ -61,7 +61,7 @@ const Update = () =>{
           </label>
         </div>
         <div className="mb-3">
-          <input className="form-check-input" type="radio" name="gender " id="flexRadioDefault2" value="Female" checked={updatedData.gender === "Female"} onChange={setData}></input>
+          <input className="form-check-input" type="radio" name="gender" id="flexRadioDefault2" value="Female" checked={updatedData.gender === "Female"} onChange={setData}></input>
           <label className="form-check-label mx-2" htmlFor="flexRadioDefault2">
             Female
           </label>
